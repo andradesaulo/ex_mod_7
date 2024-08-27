@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+body {
+  padding: 100px;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label,
+form input,
+form button,
+form p {
+  box-sizing: border-box;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+form button {
+  margin-top: 10px;
+  background-color: #378ed6;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  height: 35px;
+  border: black solid 1px;
+}
